@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -80,9 +79,9 @@
 </head>
 <body>
     <div class="navbar">
-        <a class="active" href="#home">Home</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#about">About Us</a>
+        <a class="active" href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a>
+        <a href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us</a>
+        <a href="https://kenzie-nice.github.io/FinalAbout.io/">About Us</a>
     </div>
 
     <div class="container">  
