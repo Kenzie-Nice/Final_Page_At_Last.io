@@ -3,15 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Making Guide</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Your existing CSS styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('depositphotos_424626210-stock-photo-autumn-leaves-in-a-puddle.jpg'); /* Specify the path to your background image */
+            background-image: url('depositphotos_424626210-stock-photo-autumn-leaves-in-a-puddle.jpg'); 
             background-size: cover;
             background-position: center;
         }
@@ -46,40 +44,34 @@
             text-align: center;
             margin-top: 50px;
         }
-        /* Additional CSS for Canvas */
         canvas {
             display: block;
             margin: 20px auto;
             border: 1px solid black;
         }
-        /* CSS for images */
         .main-photo {
             display: block;
-            margin: 20px auto; /* Add margin for spacing */
-            width: 300px; /* Adjust the width as needed */
+            margin: 20px auto; 
+            width: 300px; 
             border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">  
-        <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> <!-- Specify the path to your third coffee image -->
+        <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> 
         <p>Natural rain makes everything look so pretty, though a professional photographer also helps.</p>
-        <h1><img src="rain-flower_27V64NTJSD.jpg" alt="Flower" class="main-photo"></h1> <!-- Specify the path to your first coffee image -->
+        <h1><img src="rain-flower_27V64NTJSD.jpg" alt="Flower" class="main-photo"></h1> 
            <p>Rain as expected, does help plants grow as it carries an important biological function for a plant. But it can also do more than help sustain the plant; it can assist even with pollination.</p>
-        <h2><img src="leaf-rain_Q4TIQ25RBY.jpg" alt="Leaf" class="main-photo"></h2> <!-- Specify the path to your second coffee image -->
+        <h2><img src="leaf-rain_Q4TIQ25RBY.jpg" alt="Leaf" class="main-photo"></h2> 
          <p>I Leaf.....</p>
-        <!-- Your existing HTML content -->
     </div>
-
     <!-- HTML5 Canvas -->
     <canvas id="myCanvas" width="400" height="200"></canvas>
-
     <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
     <!-- JavaScript for Canvas -->
     <script>
         // JavaScript code for canvas
@@ -89,11 +81,10 @@
         ctx.fillRect(10, 10, 50, 50);
     </script>
 
-    <!-- Your existing footer -->
-    <ul>
-        <li> Home Page <a href="https://kenzie-nice.github.io/Kenzie_Nice.github.io/">Home we go!</a></li>
-        <li>Any Questions, comments, or concerns? <a href="https://kenzie-nice.github.io/Contact-Page.io/">Contact Us!</a></li>
-        <li> Interested in our origin?!<a href="https://kenzie-nice.github.io/About_us.io/">About Us!</a></li>
+ <ul>
+        <li> Home <a href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a></li>
+        <li>Contact Us<a href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us!</a></li>
+        <li>About Us<a href="https://kenzie-nice.github.io/FinalAbout.io/">About Us!</a></li>
     </ul>
 </body>
 </html>
