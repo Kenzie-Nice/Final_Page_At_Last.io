@@ -1,9 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Making Guide</title>
-    <!-- Bootstrap CSS -->
+    <title>Rainy Day Final</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -56,34 +56,9 @@
             width: 300px; 
             border-radius: 10px;
         }
-        /* Center-align the navbar links */
-        .navbar-nav {
-            margin: 0 auto;
-            display: table;
-        }
-        .navbar-nav .nav-item {
-            display: table-cell;
-            text-align: center;
-        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://kenzie-nice.github.io/FinalAbout.io/">About Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
     <div class="container">  
         <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> 
         <p>Natural rain makes everything look so pretty, though a professional photographer also helps.</p>
@@ -103,9 +78,26 @@
         // JavaScript code for canvas
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
+
+  // Red box
         ctx.fillStyle = "red";
         ctx.fillRect(10, 10, 50, 50);
+     // Cyan box
+        ctx.fillStyle = "cyan";
+        ctx.fillRect(70, 10, 50, 50);
+        // Green box
+        ctx.fillStyle = "green";
+        ctx.fillRect(130, 10, 50, 50);
+        // Gray box
+        ctx.fillStyle = "gray";
+        ctx.fillRect(190, 10, 50, 50);
     </script>
+
+  <ul style="text-align: center;">
+        <li> Home <a href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a></li>
+        <li>Contact Us <a href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us!</a></li>
+        <li>About Us <a href="https://kenzie-nice.github.io/FinalAbout.io/">About Us!</a></li>
+    </ul>
 </body>
 </html>
 
