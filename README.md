@@ -55,14 +55,34 @@
             width: 300px; 
             border-radius: 10px;
         }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <ul style="text-align: center;">
-        <li> Home <a href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a></li>
-        <li>Contact Us <a href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us!</a></li>
-        <li>About Us <a href="https://kenzie-nice.github.io/FinalAbout.io/">About Us!</a></li>
-    </ul>
+    <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+    </div>
 
     <div class="container">  
         <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> 
