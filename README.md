@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -56,8 +57,8 @@
             border-radius: 10px;
         }
         .navbar {
-            background-color: #333;
             overflow: hidden;
+            background-color: #333;
         }
         .navbar a {
             float: left;
