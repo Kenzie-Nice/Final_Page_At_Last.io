@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -63,10 +62,13 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1><img src="rain-flower_27V64NTJSD.jpg" alt="Flower" class="main-photo"></h1> <!-- Specify the path to your first coffee image -->
-        <h2><img src="leaf-rain_Q4TIQ25RBY.jpg" alt="Leaf" class="main-photo"></h2> <!-- Specify the path to your second coffee image -->
+    <div class="container">  
         <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> <!-- Specify the path to your third coffee image -->
+        <p>Natural rain makes everything look so pretty, though a professional photographer also helps.</p>
+        <h1><img src="rain-flower_27V64NTJSD.jpg" alt="Flower" class="main-photo"></h1> <!-- Specify the path to your first coffee image -->
+           <p>Rain as expected, does help plants grow as it carries an important biological function for a plant. But it can also do more than help sustain the plant; it can assist even with pollination.</p>
+        <h2><img src="leaf-rain_Q4TIQ25RBY.jpg" alt="Leaf" class="main-photo"></h2> <!-- Specify the path to your second coffee image -->
+         <p>I Leaf.....</p>
         <!-- Your existing HTML content -->
     </div>
 
