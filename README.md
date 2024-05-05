@@ -10,9 +10,11 @@
         /* Your existing CSS styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #e0f2f1;
             margin: 0;
             padding: 0;
+            background-image: url('depositphotos_424626210-stock-photo-autumn-leaves-in-a-puddle.jpg'); /* Specify the path to your background image */
+            background-size: cover;
+            background-position: center;
         }
         .container {
             max-width: 800px;
@@ -51,27 +53,40 @@
             margin: 20px auto;
             border: 1px solid black;
         }
+        /* CSS for images */
+        .main-photo {
+            display: block;
+            margin: 20px auto; /* Add margin for spacing */
+            width: 300px; /* Adjust the width as needed */
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <h1><img src="rain-flower_27V64NTJSD.jpg" alt="Flower" class="main-photo"></h1> <!-- Specify the path to your first coffee image -->
+        <h2><img src="leaf-rain_Q4TIQ25RBY.jpg" alt="Leaf" class="main-photo"></h2> <!-- Specify the path to your second coffee image -->
+        <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> <!-- Specify the path to your third coffee image -->
         <!-- Your existing HTML content -->
     </div>
- <!-- HTML5 Canvas -->
+
+    <!-- HTML5 Canvas -->
     <canvas id="myCanvas" width="400" height="200"></canvas>
- <!-- Bootstrap JavaScript -->
+
+    <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script
-     <!-- JavaScript for Canvas -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for Canvas -->
     <script>
-        // Get the canvas element
+        // JavaScript code for canvas
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
-        // Draw a red rectangle on the canvas
         ctx.fillStyle = "red";
         ctx.fillRect(10, 10, 50, 50);
     </script>
+
     <!-- Your existing footer -->
     <ul>
         <li> Home Page <a href="https://kenzie-nice.github.io/Kenzie_Nice.github.io/">Home we go!</a></li>
