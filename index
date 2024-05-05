@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Making Guide</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Your custom CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f2f1;
+            margin: 0;
+            padding: 0;
+        }
+        /* Add your existing CSS styles here */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><img src="Does-Coffee-Make-You-Gain-Weight-2000-9388988c07d247ae9394b7d5b78eaae9.jpg" alt="Just some coffee" style="width:520px"></h1>
+        <h2>How to make a cup of coffee</h2>
+        <!-- Your existing content here -->
+    </div>
+
+    <!-- HTML5 Canvas -->
+    <canvas id="myCanvas" width="400" height="200"></canvas>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for Canvas -->
+    <script>
+        // JavaScript code for canvas
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(10, 10, 50, 50);
+    </script>
+
+    <!-- Your existing footer -->
+    <ul>
+        <li> Home Page <a href="https://kenzie-nice.github.io/Kenzie_Nice.github.io/">Home we go!</a></li>
+        <li>Any Questions, comments, or concerns? <a href="https://kenzie-nice.github.io/Contact-Page.io/">Contact Us!</a></li>
+        <li> Interested in our origin?!<a href="https://kenzie-nice.github.io/About_us.io/">About Us!</a></li>
+    </ul>
+</body>
+</html>
