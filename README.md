@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rainy Day Final</title>
+    <title>Coffee Making Guide</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -59,6 +58,12 @@
     </style>
 </head>
 <body>
+    <ul style="text-align: center;">
+        <li> Home <a href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a></li>
+        <li>Contact Us <a href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us!</a></li>
+        <li>About Us <a href="https://kenzie-nice.github.io/FinalAbout.io/">About Us!</a></li>
+    </ul>
+
     <div class="container">  
         <h3><img src="37605990474_d632c445e0_b.jpg" alt="Coffee Image 3" class="Dream Life"></h3> 
         <p>Natural rain makes everything look so pretty, though a professional photographer also helps.</p>
@@ -79,25 +84,21 @@
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
 
-  // Red box
+        // Red box
         ctx.fillStyle = "red";
         ctx.fillRect(10, 10, 50, 50);
-     // Cyan box
+
+        // Cyan box
         ctx.fillStyle = "cyan";
         ctx.fillRect(70, 10, 50, 50);
+
         // Green box
         ctx.fillStyle = "green";
         ctx.fillRect(130, 10, 50, 50);
+
         // Gray box
         ctx.fillStyle = "gray";
         ctx.fillRect(190, 10, 50, 50);
     </script>
-
-  <ul style="text-align: center;">
-        <li> Home <a href="https://kenzie-nice.github.io/Final_Page_At_Last.io/">Home</a></li>
-        <li>Contact Us <a href="https://kenzie-nice.github.io/Final-stuff.io/">Contact Us!</a></li>
-        <li>About Us <a href="https://kenzie-nice.github.io/FinalAbout.io/">About Us!</a></li>
-    </ul>
 </body>
 </html>
-
